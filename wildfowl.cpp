@@ -2,6 +2,6 @@
 
 #include <iostream>
 
-void hello(std::string name) {
+void gfb::wildfowl::hello(std::string name) {
     std::cout << "Hello, " << name << "!" << std::endl;
 }

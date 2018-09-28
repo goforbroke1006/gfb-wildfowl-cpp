@@ -11,6 +11,6 @@ set_target_properties(gfb_wildfowl
         PROPERTIES    PUBLIC_HEADER           "${PUBLIC_HEADER_FILES}"
         )
 install(TARGETS                                 gfb_wildfowl
-        LIBRARY             DESTINATION         lib/${PROJECT_NAME}
+        LIBRARY             DESTINATION         lib
         PUBLIC_HEADER       DESTINATION         include/${PROJECT_NAME}
         )

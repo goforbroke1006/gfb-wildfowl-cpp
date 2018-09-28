@@ -3,6 +3,10 @@
 
 #include <string>
 
-void hello(std::string name);
+namespace gfb {
+    namespace wildfowl {
+        void hello(std::string name);
+    }
+}
 
 #endif

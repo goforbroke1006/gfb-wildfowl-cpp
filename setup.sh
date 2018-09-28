@@ -7,3 +7,4 @@ cmake --build ${BUILD_DIR} --target all
 cd ${BUILD_DIR}
 make
 sudo make install
+sudo ldconfig
